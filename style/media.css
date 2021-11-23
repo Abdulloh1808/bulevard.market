@@ -377,7 +377,7 @@
 }
 @media(max-width: 360px) {
     .intro{
-        height: 320px;
+        height: 280px;
     }
     .box-left{
         flex-direction: column;
