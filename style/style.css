@@ -207,6 +207,7 @@ h1{
 }
 .main_items img{
     margin: 10px 0;
+    background: none;
 }
 .main_items p{
     font-size: 14px;

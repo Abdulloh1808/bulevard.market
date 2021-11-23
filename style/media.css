@@ -139,6 +139,9 @@
 }
 @media(max-width: 734px) {}
 @media(max-width: 684px) {
+    .intro{
+        height: 80vh;
+    }
     h1{
         font-size: 65px;
     }
@@ -345,9 +348,7 @@
     .footer{
         margin-top: 20px;
     }
-    .intro{
-        height: 80vh;
-    }
+   
     }
 @media(max-width: 375px) {
     .footer{
@@ -370,8 +371,14 @@
     .main_info{
         gap: 20px;
     }
+    .intro{
+        height: 65vh;
+    }
 }
 @media(max-width: 360px) {
+    .intro{
+        height: 320px;
+    }
     .box-left{
         flex-direction: column;
         width: 70px;
@@ -431,7 +438,11 @@
         font-size: 15px;
     }
 }
-@media(max-width: 320px) {}
+@media(max-width: 320px) {
+    .intro{
+        height: 280px;
+    }
+}
 @media(max-width: 280px) {
     h1{
         font-size: 35px;
@@ -459,9 +470,7 @@
     .nav{
         height: 104px;
     }
-    .intro{
-        height: 65vh;
-    }
+    
     .main_center .main_text,
     .main_top .text,   
     .main_bottom .text,
